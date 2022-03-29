@@ -1,0 +1,22 @@
+12
+
+            What is the value of the first triangle number to have over five hundred divisors?
+ 
+            int highscore = 0, currentTriNum = 0, i = 0;
+            while (highscore < 501)
+            {
+                i++;
+                currentTriNum +=i;
+
+                int currentNumDivs=0;
+                for (int x = 1; x < currentTriNum+1; x++)
+                    if(currentTriNum % x == 0)
+                        currentNumDivs++;
+                        
+                if(currentNumDivs > highscore) {
+                    highscore = currentNumDivs;
+                    Console.WriteLine(currentTriNum + " | " + highscore);
+                }
+                
+            }
+            Console.Read();

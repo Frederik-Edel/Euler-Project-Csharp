@@ -1,0 +1,26 @@
+4
+        A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
+        Find the largest palindrome made from the product of two 3-digit numbers.
+
+
+            static string temp;
+            //Main
+            Dictionary<string, int> dic = new Dictionary<string, int>() {};
+            for (int x = 100; x < 1000; x++)
+            {
+                for (int y = 100; y < 1000; y++)
+                {
+                    string z = (x*y).ToString();
+                    if (z.Length > 3 && ((float)z.Length )/2 %1 == 0  && !dic.ContainsValue(int.Parse(z)))
+                           if (z.Substring(0,1) ==  z.Substring(5,1) && z.Substring(1,1) == z.Substring(4,1) && z.Substring(2,1) == z.Substring(3,1))
+                                dic.Add(x.ToString()+ " * " + y.ToString(), int.Parse(z));
+                }
+            }
+            //sort dictonary dic
+            var sortedDic = from entry in dic orderby entry.Value ascending select entry;
+            foreach (KeyValuePair<string, int> value in sortedDic)
+            {
+                temp = temp + "\n" +value.Value + " ist " + value.Key;
+            }
+            File.WriteAllText(@"C:\Users\frede\Desktop\results.txt", temp); 
+            

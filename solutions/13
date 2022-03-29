@@ -1,0 +1,9 @@
+13
+
+            Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
+
+            BigInteger[] arr = Array.ConvertAll(File.ReadAllText("input.txt").Split("\n"), BigInteger.Parse);
+            BigInteger result = 0;
+            foreach (BigInteger i in arr)
+                result += i;
+            Console.WriteLine(result);

@@ -1,0 +1,13 @@
+C:\Users\frede\Ablage\Coding\C#\The Euler Project\src\bin\release\netcoreapp3.1\src.exe
+C:\Users\frede\Ablage\Coding\C#\The Euler Project\src\bin\release\netcoreapp3.1\src.deps.json
+C:\Users\frede\Ablage\Coding\C#\The Euler Project\src\bin\release\netcoreapp3.1\src.runtimeconfig.json
+C:\Users\frede\Ablage\Coding\C#\The Euler Project\src\bin\release\netcoreapp3.1\src.runtimeconfig.dev.json
+C:\Users\frede\Ablage\Coding\C#\The Euler Project\src\bin\release\netcoreapp3.1\src.dll
+C:\Users\frede\Ablage\Coding\C#\The Euler Project\src\bin\release\netcoreapp3.1\src.pdb
+C:\Users\frede\Ablage\Coding\C#\The Euler Project\src\obj\release\netcoreapp3.1\src.csprojAssemblyReference.cache
+C:\Users\frede\Ablage\Coding\C#\The Euler Project\src\obj\release\netcoreapp3.1\src.AssemblyInfoInputs.cache
+C:\Users\frede\Ablage\Coding\C#\The Euler Project\src\obj\release\netcoreapp3.1\src.AssemblyInfo.cs
+C:\Users\frede\Ablage\Coding\C#\The Euler Project\src\obj\release\netcoreapp3.1\src.csproj.CoreCompileInputs.cache
+C:\Users\frede\Ablage\Coding\C#\The Euler Project\src\obj\release\netcoreapp3.1\src.dll
+C:\Users\frede\Ablage\Coding\C#\The Euler Project\src\obj\release\netcoreapp3.1\src.pdb
+C:\Users\frede\Ablage\Coding\C#\The Euler Project\src\obj\release\netcoreapp3.1\src.genruntimeconfig.cache

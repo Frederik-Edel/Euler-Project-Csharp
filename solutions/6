@@ -1,0 +1,12 @@
+6
+            Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
+
+            int num = 100;
+            int x = (int)Math.Pow(num*(num+1)/2, 2);
+
+            int y = 1, temp=1;
+            for (int i = 1; i < num; i++){
+                temp+= i*2+1;
+                y+=temp; 
+            }
+            Console.WriteLine(x-y);
